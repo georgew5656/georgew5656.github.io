@@ -1,5 +1,3 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -7,7 +5,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p>
-          Work in progress
+          I work on streaming data infrastructure at <a href="https://imply.io/">Imply</a>.<br/>
+          You can contact me at george.wu.1923@gmail.com. <br/>
+          I am currently based out of Washington DC.
         </p>
       </header>
     </div>
