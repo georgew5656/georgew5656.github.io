@@ -5,9 +5,10 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p>
-          I work on streaming data infrastructure at <a href="https://imply.io/">Imply</a>.<br/>
-          You can contact me at george.wu.1923@gmail.com. <br/>
-          I am currently based out of Washington DC.
+          Hi! I'm a software engineer currently based out of Washington DC. <br/>
+          I work on streaming data infrastructure at <a href="https://imply.io/">Imply</a> <br/>
+          <br/>
+          I'm best contacted via email at george.wu.1923@gmail.com.
         </p>
       </header>
     </div>
