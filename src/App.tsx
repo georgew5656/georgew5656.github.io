@@ -1,6 +1,31 @@
 import './App.css';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Link
+} from "react-router-dom";
 
 function App() {
+  return (
+    <Router>
+      <div>
+        <ul>
+          <li>
+            <Link to="/">About</Link>
+          </li>
+        </ul>
+        <hr />
+        <Routes>
+          <Route path="/" element={About()} />
+        </Routes>
+      </div>
+    </Router>
+  );
+}
+
+
+function About() {
   return (
     <div className="App">
       <header className="App-header">
@@ -15,4 +40,7 @@ function App() {
   );
 }
 
+function Blog() {
+  return <p>blog</p>
+}
 export default App;
