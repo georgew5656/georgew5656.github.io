@@ -1,3 +1,4 @@
+import { Component } from "react";
 import { Link } from "react-router-dom";
 
 interface BlogRowProps {
@@ -14,4 +15,14 @@ export function Blog() {
     return <div>
         {BlogRow({date: "September 17, 2022", path: "portugal"})}
     </div>
+}
+
+export class Post extends Component {
+    constructor(props: any) {
+        super(props);
+      }
+
+    render() {
+        return <div>portugal</div>
+    }
 }

@@ -10,29 +10,26 @@ import {
 import {
   About
 } from "./About"
+
+import {
+  Blog,
+  Post
+} from "./Blog"
 function App() {
   return (
     <Router>
       <div>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/about">About</Link>
-          </li>
-        </ul>
+          <span><Link to="/">Home</Link></span>
+          <span><Link to="/about">About</Link></span>
         <hr />
         <Routes>
           <Route path="/" element={Blog()} />
           <Route path="/about" element={About()} />
+          <Route path="/portugal" element={new Post({})} />
         </Routes>
       </div>
     </Router>
   );
 }
 
-function Blog() {
-  return <p>blog</p>
-}
 export default App;
