@@ -16,3 +16,11 @@
 .App-link {
   color: #61dafb;
 }
+
+div {
+  text-align: center;
+}
+
+span {
+  margin-left: 10px;
+}
