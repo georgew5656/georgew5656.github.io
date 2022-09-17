@@ -15,7 +15,15 @@ import {
   Blog,
   Post
 } from "./Blog"
+
+import raw from "./portugal.md"
+
 function App() {
+  fetch(raw)
+  .then(r => r.text())
+  .then(text => {
+    console.log('text decoded:', text);
+  });
   return (
     <Router>
       <div>
