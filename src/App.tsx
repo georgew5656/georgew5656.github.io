@@ -3,40 +3,32 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
-  Link
+  Link,
+  useNavigate
 } from "react-router-dom";
 
+import {
+  About
+} from "./About"
 function App() {
   return (
     <Router>
       <div>
         <ul>
           <li>
-            <Link to="/">About</Link>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/about">About</Link>
           </li>
         </ul>
         <hr />
         <Routes>
-          <Route path="/" element={About()} />
+          <Route path="/" element={Blog()} />
+          <Route path="/about" element={About()} />
         </Routes>
       </div>
     </Router>
-  );
-}
-
-
-function About() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Hi! I'm a software engineer currently based out of Washington DC. <br/>
-          I work on streaming data infrastructure at <a href="https://imply.io/">Imply</a> <br/>
-          <br/>
-          I'm best contacted via email at george.wu.1923@gmail.com.
-        </p>
-      </header>
-    </div>
   );
 }
 
