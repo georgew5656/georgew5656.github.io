@@ -12,18 +12,14 @@ import {
 } from "./About"
 
 import {
-  Blog,
-  Post
+  Blog
 } from "./Blog"
 
-import raw from "./portugal.md"
+import {
+  Post
+} from "./Post"
 
 function App() {
-  fetch(raw)
-  .then(r => r.text())
-  .then(text => {
-    console.log('text decoded:', text);
-  });
   return (
     <Router>
       <div>
@@ -33,7 +29,7 @@ function App() {
         <Routes>
           <Route path="/" element={Blog()} />
           <Route path="/about" element={About()} />
-          <Route path="/portugal" element={new Post({})} />
+          <Route path="/portugal" element={<Post/>} />
         </Routes>
       </div>
     </Router>

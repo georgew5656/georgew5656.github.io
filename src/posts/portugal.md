@@ -1,4 +1,5 @@
 **Portugal**
+
 I spent 11 nights in Portugal in September, arriving on a Saturday and leaving on a Wednesday, visiting Porto, Lisbon, and the southern coast (we stayed in Portimao around the de Rocha beach). If I had to say whether this period was too long or too short I would say it was slightly on the long side (I personally think Portimao can be skipped and that 3-4 nights each in Lisbon and Porto is sufficient), and one week with two weekends ought to be more than enough.
 
 In general, the Porto -> Lisbon order of operations seems correct to me. Ideally one could fly open jaw into Porto and out of Lisbon, but we flew into Lisbon and immediately hopped onto a train to Porto.
