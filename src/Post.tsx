@@ -10,6 +10,7 @@ export class Post extends Component<{}, {post: string}> {
         this.state = {post: "" }
       }
     componentDidMount() {
+        const raw = require("./posts/portugal.md")
         fetch(raw)
         .then(r => r.text())
         .then(text => {

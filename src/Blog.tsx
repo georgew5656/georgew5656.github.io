@@ -1,7 +1,4 @@
-import { Component } from "react";
 import { Link } from "react-router-dom";
-
-import raw from "./posts/portugal.md"
 
 interface BlogRowProps {
     date: string
