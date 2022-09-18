@@ -17,10 +17,10 @@
   color: #61dafb;
 }
 
-div {
+.contents {
   text-align: center;
 }
 
-span {
+.tab {
   margin-left: 10px;
 }

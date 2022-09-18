@@ -1,6 +1,7 @@
 import { Component } from "react";
 import ReactMarkdown from "react-markdown";
 
+import './Post.css';
 
 
 export class Post extends Component<{name: string}, {post: string}> {
@@ -17,6 +18,6 @@ export class Post extends Component<{name: string}, {post: string}> {
         });
     }
     render() {
-        return <ReactMarkdown>{this.state.post}</ReactMarkdown>
+        return <ReactMarkdown className="blog">{this.state.post}</ReactMarkdown>
     }
 }

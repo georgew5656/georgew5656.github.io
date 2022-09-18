@@ -4,7 +4,6 @@ import {
   Routes,
   Route,
   Link,
-  useNavigate
 } from "react-router-dom";
 
 import {
@@ -22,9 +21,9 @@ import {
 function App() {
   return (
     <Router>
-      <div>
-          <span><Link to="/">Home</Link></span>
-          <span><Link to="/about">About</Link></span>
+      <div className="contents">
+          <span className="tab"><Link to="/">Home</Link></span>
+          <span className="tab"><Link to="/about">About</Link></span>
         <hr />
         <Routes>
           <Route path="/" element={Blog()} />
