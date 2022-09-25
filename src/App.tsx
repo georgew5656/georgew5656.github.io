@@ -27,8 +27,8 @@ function App() {
         <hr />
         <Routes>
           <Route path="/" element={Blog()} />
-          <Route path="/about" element={About()} />
-          <Route path="/portugal" element={<Post name="portugal"/>} />
+          <Route path="about" element={About()} />
+          <Route path="portugal" element={<Post name="portugal"/>} />
         </Routes>
       </div>
     </Router>
