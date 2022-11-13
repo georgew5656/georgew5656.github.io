@@ -15,7 +15,8 @@ function BlogRow(props: BlogRowProps) {
   }
 
 export function Blog() {
-    return <div className="row">
-        {BlogRow({date: "September 17, 2022", path: "portugal", title: "Portugal Notes"})}
-    </div>
+    return <>
+        <div className="row">{BlogRow({date: "September 17, 2022", path: "portugal", title: "Portugal Notes"})}</div>
+        <div className="row">{BlogRow({date: "November 13, 2022", path: "mexico-city", title: "Mexico City Notes"})}</div>
+    </>
 }

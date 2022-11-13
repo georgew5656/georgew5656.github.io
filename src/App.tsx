@@ -29,6 +29,7 @@ function App() {
           <Route path="/" element={Blog()} />
           <Route path="about" element={About()} />
           <Route path="portugal" element={<Post name="portugal"/>} />
+          <Route path="mexico-city" element={<Post name="mexico-city"/>} />
         </Routes>
       </div>
     </Router>
