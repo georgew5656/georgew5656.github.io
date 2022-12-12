@@ -1,15 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.9b54e329.css",
-    "main.js": "/static/js/main.ea960838.js",
+    "main.js": "/static/js/main.6d5aaa8e.js",
     "static/media/portugal.md": "/static/media/portugal.d189101d2acf8c6840ea.md",
+    "static/media/las-vegas.md": "/static/media/las-vegas.3b55f573e2af5f0967bc.md",
     "static/media/mexico-city.md": "/static/media/mexico-city.f7cc62247988e7194f2f.md",
     "index.html": "/index.html",
     "main.9b54e329.css.map": "/static/css/main.9b54e329.css.map",
-    "main.ea960838.js.map": "/static/js/main.ea960838.js.map"
+    "main.6d5aaa8e.js.map": "/static/js/main.6d5aaa8e.js.map"
   },
   "entrypoints": [
     "static/css/main.9b54e329.css",
-    "static/js/main.ea960838.js"
+    "static/js/main.6d5aaa8e.js"
   ]
 }
