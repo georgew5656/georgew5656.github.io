@@ -30,6 +30,8 @@ function App() {
           <Route path="about" element={About()} />
           <Route path="portugal" element={<Post name="portugal"/>} />
           <Route path="mexico-city" element={<Post name="mexico-city"/>} />
+          <Route path="las-vegas" element={<Post name="las-vegas"/>} />
+          <Route path="zombie-companies" element={<Post name="zombie-companies"/>} />
         </Routes>
       </div>
     </Router>
