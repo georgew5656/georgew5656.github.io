@@ -1,17 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.96389f38.css",
-    "main.js": "/static/js/main.e385f48a.js",
+    "main.js": "/static/js/main.2c52e253.js",
     "static/media/portugal.md": "/static/media/portugal.d189101d2acf8c6840ea.md",
     "static/media/las-vegas.md": "/static/media/las-vegas.3b55f573e2af5f0967bc.md",
     "static/media/mexico-city.md": "/static/media/mexico-city.f7cc62247988e7194f2f.md",
+    "static/media/dreamliner.md": "/static/media/dreamliner.c3871d73b52af995ebcd.md",
     "static/media/zombie-companies.md": "/static/media/zombie-companies.534b7bb32d914040221e.md",
     "index.html": "/index.html",
     "main.96389f38.css.map": "/static/css/main.96389f38.css.map",
-    "main.e385f48a.js.map": "/static/js/main.e385f48a.js.map"
+    "main.2c52e253.js.map": "/static/js/main.2c52e253.js.map"
   },
   "entrypoints": [
     "static/css/main.96389f38.css",
-    "static/js/main.e385f48a.js"
+    "static/js/main.2c52e253.js"
   ]
 }
