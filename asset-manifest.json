@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.96389f38.css",
-    "main.js": "/static/js/main.9325a436.js",
+    "main.js": "/static/js/main.53c614af.js",
+    "static/media/south-korea.md": "/static/media/south-korea.5bf7111bf1964ce55230.md",
     "static/media/portugal.md": "/static/media/portugal.d189101d2acf8c6840ea.md",
     "static/media/las-vegas.md": "/static/media/las-vegas.3b55f573e2af5f0967bc.md",
     "static/media/mexico-city.md": "/static/media/mexico-city.f7cc62247988e7194f2f.md",
@@ -10,10 +11,10 @@
     "static/media/zombie-companies.md": "/static/media/zombie-companies.534b7bb32d914040221e.md",
     "index.html": "/index.html",
     "main.96389f38.css.map": "/static/css/main.96389f38.css.map",
-    "main.9325a436.js.map": "/static/js/main.9325a436.js.map"
+    "main.53c614af.js.map": "/static/js/main.53c614af.js.map"
   },
   "entrypoints": [
     "static/css/main.96389f38.css",
-    "static/js/main.9325a436.js"
+    "static/js/main.53c614af.js"
   ]
 }
