@@ -35,6 +35,7 @@ function App() {
           <Route path="dreamliner" element={<Post name="dreamliner"/>} />
           <Route path="manhattan" element={<Post name="manhattan"/>} />
           <Route path="south-korea" element={<Post name="south-korea"/>} />
+          <Route path="cancun" element={<Post name="cancun"/>} />
         </Routes>
       </div>
     </Router>
