@@ -27,5 +27,6 @@ export function Blog() {
         <div className="row">{BlogRow({date: "November 11, 2023", path: "bellevue", title: "Bellevue"})}</div>
         <div className="row">{BlogRow({date: "December 9, 2023", path: "london", title: "London"})}</div>
         <div className="row">{BlogRow({date: "December 10, 2023", path: "netherlands", title: "Netherlands"})}</div>
+        <div className="row">{BlogRow({date: "April 2, 2024", path: "nova", title: "Northern Virginia"})}</div>
     </>
 }
