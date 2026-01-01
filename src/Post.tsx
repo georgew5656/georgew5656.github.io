@@ -1,23 +1,27 @@
-import { Component } from "react";
+import { useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
 import ReactMarkdown from "react-markdown";
 
 import './Post.css';
 
 
-export class Post extends Component<{name: string}, {post: string}> {
-    constructor(props: any) {
-        super(props);
-        this.state = {post: "" }
-      }
-    componentDidMount() {
-        const raw = require(`./posts/${this.props.name}.md`)
+export function Post() {
+    const params = useParams();
+    const [post, setPost] = useState("");
+
+    useEffect(() => {
+        if (!params.name) {
+            setPost("");
+            return;
+        }
+
+        const raw = require(`./posts/${params.name}.md`);
         fetch(raw)
-        .then(r => r.text())
-        .then(text => {
-          this.setState({post: text})
-        });
-    }
-    render() {
-        return <ReactMarkdown className="blog">{this.state.post}</ReactMarkdown>
-    }
+            .then(r => r.text())
+            .then(text => {
+                setPost(text);
+            });
+    }, [params.name]);
+
+    return <ReactMarkdown className="blog">{post}</ReactMarkdown>;
 }

@@ -28,18 +28,7 @@ function App() {
         <Routes>
           <Route path="/" element={Blog()} />
           <Route path="about" element={About()} />
-          <Route path="portugal" element={<Post name="portugal"/>} />
-          <Route path="mexico-city" element={<Post name="mexico-city"/>} />
-          <Route path="las-vegas" element={<Post name="las-vegas"/>} />
-          <Route path="zombie-companies" element={<Post name="zombie-companies"/>} />
-          <Route path="dreamliner" element={<Post name="dreamliner"/>} />
-          <Route path="manhattan" element={<Post name="manhattan"/>} />
-          <Route path="south-korea" element={<Post name="south-korea"/>} />
-          <Route path="cancun" element={<Post name="cancun"/>} />
-          <Route path="bellevue" element={<Post name="bellevue"/>} />
-          <Route path="london" element={<Post name="london"/>} />
-          <Route path="netherlands" element={<Post name="netherlands"/>} />
-          <Route path="nova" element={<Post name="nova"/>} />
+          <Route path=":name" element={<Post />} />
         </Routes>
       </div>
     </Router>
