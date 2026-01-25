@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.96389f38.css",
-    "main.js": "/static/js/main.dcf9190a.js",
+    "main.js": "/static/js/main.51efbf07.js",
     "static/media/south-korea.md": "/static/media/south-korea.5bf7111bf1964ce55230.md",
     "static/media/cancun.md": "/static/media/cancun.70b9a8b2e35a4f25c463.md",
     "static/media/portugal.md": "/static/media/portugal.d189101d2acf8c6840ea.md",
@@ -15,12 +15,13 @@
     "static/media/manhattan.md": "/static/media/manhattan.0ed3d3a59f3f60089c83.md",
     "static/media/dreamliner.md": "/static/media/dreamliner.c3871d73b52af995ebcd.md",
     "static/media/zombie-companies.md": "/static/media/zombie-companies.534b7bb32d914040221e.md",
+    "static/media/postgres-pooling.md": "/static/media/postgres-pooling.a019af686581e89dd6af.md",
     "index.html": "/index.html",
     "main.96389f38.css.map": "/static/css/main.96389f38.css.map",
-    "main.dcf9190a.js.map": "/static/js/main.dcf9190a.js.map"
+    "main.51efbf07.js.map": "/static/js/main.51efbf07.js.map"
   },
   "entrypoints": [
     "static/css/main.96389f38.css",
-    "static/js/main.dcf9190a.js"
+    "static/js/main.51efbf07.js"
   ]
 }
