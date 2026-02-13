@@ -1,4 +1,24 @@
 .row {
-    margin-left: 10px;
-    text-align: left;
+  margin-left: 10px;
+  text-align: left;
+}
+
+div.row {
+  margin-bottom: 8px;
+}
+
+span.row {
+  display: inline-block;
+  margin-right: 12px;
+}
+
+@media (max-width: 768px) {
+  .row {
+    margin-left: 0;
   }
+
+  span.row {
+    display: block;
+    margin: 0 0 4px 0;
+  }
+}
