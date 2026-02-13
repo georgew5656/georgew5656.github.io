@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.96389f38.css",
+    "main.css": "/static/css/main.157d6948.css",
     "main.js": "/static/js/main.b51dd4c4.js",
     "static/media/south-korea.md": "/static/media/south-korea.5bf7111bf1964ce55230.md",
     "static/media/cilium-tgw.md": "/static/media/cilium-tgw.1fdbbd7cd32f611e0b24.md",
@@ -18,11 +18,11 @@
     "static/media/zombie-companies.md": "/static/media/zombie-companies.534b7bb32d914040221e.md",
     "static/media/postgres-pooling.md": "/static/media/postgres-pooling.a019af686581e89dd6af.md",
     "index.html": "/index.html",
-    "main.96389f38.css.map": "/static/css/main.96389f38.css.map",
+    "main.157d6948.css.map": "/static/css/main.157d6948.css.map",
     "main.b51dd4c4.js.map": "/static/js/main.b51dd4c4.js.map"
   },
   "entrypoints": [
-    "static/css/main.96389f38.css",
+    "static/css/main.157d6948.css",
     "static/js/main.b51dd4c4.js"
   ]
 }
