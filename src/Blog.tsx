@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import './Blog.css';
+import posts from "./posts.json";
 
 interface BlogRowProps {
     date: string
@@ -16,19 +17,10 @@ function BlogRow(props: BlogRowProps) {
 
 export function Blog() {
     return <>
-        <div className="row">{BlogRow({date: "September 17, 2022", path: "portugal", title: "Portugal Notes"})}</div>
-        <div className="row">{BlogRow({date: "November 13, 2022", path: "mexico-city", title: "Mexico City Notes"})}</div>
-        <div className="row">{BlogRow({date: "December 11, 2022", path: "las-vegas", title: "Las Vegas Notes"})}</div>
-        <div className="row">{BlogRow({date: "January 2, 2023", path: "zombie-companies", title: "Zombie Companies"})}</div>
-        <div className="row">{BlogRow({date: "Feburary 20, 2023", path: "dreamliner", title: "787 Dreamliner"})}</div>
-        <div className="row">{BlogRow({date: "April 23, 2023", path: "manhattan", title: "Manhattan"})}</div>
-        <div className="row">{BlogRow({date: "June 3, 2023", path: "south-korea", title: "South Korea"})}</div>
-        <div className="row">{BlogRow({date: "August 5, 2023", path: "cancun", title: "Cancun"})}</div>
-        <div className="row">{BlogRow({date: "November 11, 2023", path: "bellevue", title: "Bellevue"})}</div>
-        <div className="row">{BlogRow({date: "December 9, 2023", path: "london", title: "London"})}</div>
-        <div className="row">{BlogRow({date: "December 10, 2023", path: "netherlands", title: "Netherlands"})}</div>
-        <div className="row">{BlogRow({date: "April 2, 2024", path: "nova", title: "Northern Virginia"})}</div>
-        <div className="row">{BlogRow({date: "January 1, 2026", path: "lifting", title: "Lifting"})}</div>
-        <div className="row">{BlogRow({date: "January 25, 2026", path: "postgres-pooling", title: "Postgres Pooling"})}</div>
+        {posts.map(post => (
+            <div className="row" key={post.path}>
+                {BlogRow({date: post.date, path: post.path, title: post.title})}
+            </div>
+        ))}
     </>
 }
